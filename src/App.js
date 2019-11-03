@@ -1,28 +1,38 @@
 import React from 'react';
 import logo from './logo.svg';
+import stock from './resources/stock.jpg';
+import logosa from './resources/logosa.png';
+
 import './App.css';
 
 import HomePage from './pages/HomePage.js';
+import Colors from './pages/Colors.js';
+
 
 function App() {
   return (
-    <div className="App">
+    
+    <div className="App" style={{background: "#000000"}}> 
+      
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logosa} className="Logo-sa" alt="logosa" width="180" height="100"/>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Website prototype!
         </p>
-        <HomePage></HomePage>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        
+        <img src={stock} className="Stock-pic" alt="stock" width="500" height="400"/>
+
+        <div>
+          <button>
+            <p> 
+              Press to play!
+            </p>
+          </button>
+        </div>
+
       </header>
     </div>
+
   );
 }
 
