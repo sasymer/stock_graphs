@@ -1,3 +1,5 @@
+*** this project is in progress -- beginnings of web app for HackDuke project
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
